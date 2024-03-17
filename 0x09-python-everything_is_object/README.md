@@ -1,14 +1,13 @@
 # Python - Everything is object
 
-![alt text](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/252/r_208403_QPSN8.jpg)
-
-In this project, I studied object instantiation in Python, delving into variable aliasing and object identifiers, types, and mutability. The project involved a series of quiz-like questions the answers to which I provided in single-line `.txt` files.
-
-![alt text](https://media.giphy.com/media/wAjfQ9MLUfFjq/giphy.gif)
+In this project, I studied object instantiation in Python, delving into
+variable aliasing and object identifiers, types, and mutability. The project
+involved a series of quiz-like questions the answers to which I provided in
+single-line `.txt` files.
 
 ## Tests :heavy_check_mark:
 
-* [tests](./tests): Folder of test files.
+* [tests](./tests): Folder of test files. Provided by Holberton School.
 
 ## Tasks :page_with_curl:
 
@@ -17,7 +16,8 @@ In this project, I studied object instantiation in Python, delving into variable
 
 
 * **1. Where are you?**
-  * [1-answer.txt](./1-answer.txt): How do you get a variable's identifier (which is the memory address in the CPython implementation)?
+  * [1-answer.txt](./1-answer.txt): How do you get a variable's identifier
+(which is the memory address in the CPython implementation)?
 
 * **2. Right count**
   * [2-answer.txt](./2-answer.txt): In the following code, do `a` and `b` point to the same object?
@@ -50,7 +50,7 @@ In this project, I studied object instantiation in Python, delving into variable
 * **6. Is equal**
   * [6-answer.txt](./6-answer.txt): What do these 3 lines print?
 ```
->>> s1 = "Best School"
+>>> s1 = "Holberton"
 >>> s2 = s1
 >>> print(s1 == s2)
 ```
@@ -58,7 +58,7 @@ In this project, I studied object instantiation in Python, delving into variable
 * **7. Is the same**
   * [7-answer.txt](./7-answer.txt): What do these 3 lines print?
 ```
->>> s1 = "Best"
+>>> s1 = "Holberton"
 >>> s2 = s1
 >>> print(s1 is s2)
 ```
@@ -66,16 +66,16 @@ In this project, I studied object instantiation in Python, delving into variable
 * **8. Is really equal**
   * [8-answer.txt](./1-answer.txt): What do these 3 lines print?
 ```
->>> s1 = "Best School"
->>> s2 = "Best School"
+>>> s1 = "Holberton"
+>>> s2 = "Holberton"
 >>> print(s1 == s2)
 ```
 
 * **9. Is really the same**
   * [9-answer.txt](./9-answer.txt): What do these 3 lines print?
 ```
->>> s1 = "Best School"
->>> s2 = "Best School"
+>>> s1 = "Holberton"
+>>> s2 = "Holberton"
 >>> print(s1 is s2)
 ```
 
@@ -164,7 +164,8 @@ print(l1)
 ```
 
 * **19. Copy a list object**
-  * [19-copy_list.py](./19-copy_list.py): Python function `def copy_list(l):` that returns a copy of a list.
+  * [19-copy_list.py](./19-copy_list.py): Python function `def copy_list(l):` that returns
+a copy of a list.
 
 * **20. Tuple or not?**
   * [20-answer.txt](./20-answer.txt): Is `a` a tuple?
@@ -190,7 +191,7 @@ a = (1)
 a = (1, )
 ```
 
-* **24. Who I am?**
+* **24. Richard Sim's special #0**
   * [24-answer.txt](./24-answer.txt): What does this script print?
 ```
 a = (1)
@@ -198,7 +199,7 @@ b = (1)
 a is b
 ```
 
-* **25. Tuple or not**
+* **25. Richard Sim's special #1**
   * [25-answer.txt](./25-answer.txt): What does this script print?
 ```
 a = (1, 2)
@@ -206,7 +207,7 @@ b = (1, 2)
 a is b
 ```
 
-* **26. Empty is not empty**
+* **26. Richard Sim's special #2**
   * [26-answer.txt](./26-answer.txt): What does this script print?
 ```
 a = ()
@@ -214,7 +215,7 @@ b = ()
 a is b
 ```
 
-* **27. Still the same**
+* **27. Richard Sim's special #3**
   * [27-answer.txt](./27-answer.txt): Will the last line of this script print `139926795932424`?
 ```
 >>> id(a)
@@ -225,7 +226,7 @@ a is b
 >>> id(a)
 ```
 
-* **28. Same or not?**
+* **28. Richard Sim's special #4**
   * [28-answer.txt](./28-answer.txt): Will the last line of this script print `139926795932424`?
 ```
 >>> a
@@ -237,25 +238,35 @@ a is b
 ```
 
 * **29. #pythonic**
-  * [100-magic_string.py](./100-magic_string.py): Python function `magic_string()` that returns the string `"BestSchool"` n times the number of iteration.
+  * [100-magic_string.py](./100-magic_string.py): Python function `magic_string()` that returns the
+string `"Holberton"` n times the number of iteration.
 
 * **30. Low memory cost**
-  * [101-locked_class.py](./101-locked_class.py): Python class `LockedClass` with no attributes that prevents the user from dynamically creating any new instance attributes not called `first_name`.
+  * [101-locked_class.py](./101-locked_class.py): Python class `LockedClass` with no attributes that
+prevents the user from dynamically creating any new instance attributes not
+called `first_name`.
 
 * **31. int 1/3**
-  * [103-line1.txt](./103-line1.txt): How many `int` objects are created by the execution of the first line in this script?
-  * [104-line2.txt](./104-line2.txt): How many `int` objects are created by the execution of the second line in this script?
+  * [103-line1.txt](./103-line1.txt): How many `int` objects are created by the execution
+of the first line in this script?
+  * [104-line2.txt](./104-line2.txt): How many `int` objects are created by the execution
+of the second line in this script?
 ```
 a = 1
 b = 1
 ```
 
 * **32. int 2/3**
-  * [104-line1.txt](./104-line1.txt): How many `int` objects are created by the execution of the first line in this script?
-  * [104-line2.txt](./104-line2.txt): How many `int` objects are created by the execution of the second line in this script?
-  * [104-line3.txt](./104-line3.txt): After the execution of line 3, is the `int` object pointed to by `a` deleted?
-  * [104-line4.txt](./104-line4.txt): After the execution of line 4, is the `int` object pointed to by `b` deleted?
-  * [104-line5.txt](./104-line5.txt): How many `int` objects are created by the execution of the last line in this script?
+  * [104-line1.txt](./104-line1.txt): How many `int` objects are created by the execution
+of the first line in this script?
+  * [104-line2.txt](./104-line2.txt): How many `int` objects are created by the execution
+of the second line in this script?
+  * [104-line3.txt](./104-line3.txt): After the execution of line 3, is the `int` object pointed
+to by `a` deleted?
+  * [104-line4.txt](./104-line4.txt): After the execution of line 4, is the `int` object pointed
+to by `b` deleted?
+  * [104-line5.txt](./104-line5.txt): How many `int` objects are created by the execution
+of the last line in this script?
 ```
 a = 1024
 b = 1024
@@ -265,25 +276,29 @@ c = 1024
 ```
 
 * **33. int 3/3**
-  * [105-line1.txt](./105-line1.txt): Before the execution of line 2 in this script, how many `int` objects have been created and are still in memory?
+  * [105-line1.txt](./105-line1.txt): Before the execution of line 2 in this script, how many
+`int` objects have been created and are still in memory?
 ```
 print("I")
 print("Love")
 print("Python")
 ```
-![alt text](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/70f9ea0e969dfcc407a7427aba4786d87a920494.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20220628%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220628T145801Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=28cc1540430447d619d0bde0fd16f57d694de58ae054aad768cb3f0b018d4095)
-
 
 * **34. Clear strings**
-  * [106-line1.txt](./106-line1.txt): How many `str` objects are created by the execution of the first line in this script?
-  * [106-line2.txt](./106-line2.txt): How many `str` objects are created by the execution of the second line in this script?
-  * [106-line3.txt](./106-line3.txt): After the execution of line 3, is the `str` object pointed to by `a` deleted?
-  * [106-line4.txt](./106-line4.txt): After the execution of line 4, is the `str` object pointed to by `b` deleted?
-  * [106-line5.txt](./106-line5.txt): How many `str` objects are created by the execution of the last line in this script?
+  * [106-line1.txt](./106-line1.txt): How many `str` objects are created by the execution
+of the first line in this script?
+  * [106-line2.txt](./106-line2.txt): How many `str` objects are created by the execution
+of the second line in this script?
+  * [106-line3.txt](./106-line3.txt): After the execution of line 3, is the `str` object pointed
+to by `a` deleted?
+  * [106-line4.txt](./106-line4.txt): After the execution of line 4, is the `str` object pointed
+to by `b` deleted?
+  * [106-line5.txt](./106-line5.txt): How many `str` objects are created by the execution
+of the last line in this script?
 ```
-a = "SCHL"
-b = "SCHL"
+a = "HBTN"
+b = "HBTN"
 del a
 del b
-c = "SCHL"
+c = "HBTN"
 ```
